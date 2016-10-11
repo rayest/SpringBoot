@@ -27,6 +27,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBoot" target="1.5" />
+      <module name="springBootHello" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

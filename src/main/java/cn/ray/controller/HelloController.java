@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Rayest on 2016/10/8 0008.
  */
 
-@RestController // 返回json字符串的数据
+@RestController // 返回 json 字符串的数据
 public class HelloController {
     @RequestMapping("/hello") // 映射路径
     public String sayHello() {
