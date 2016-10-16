@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- spring boot 只能扫描到 Application 启动类所在的包及该包的子包-->
+    <!-- 注入 spring boot 无法扫描到的类 bean -->
+    <bean id="xmlService" class="cn.ray.xml.xmlService.XmlService"></bean>
+</beans>
